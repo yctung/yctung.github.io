@@ -45,7 +45,7 @@ a:focus {
 }
 .sidebar img{
 	border:1px solid #fff;
-	padding:1em;
+	padding:0.5em;
 	width:100%;
 }
 .details{
@@ -244,18 +244,26 @@ h3.clr3{
 .sidebar h1 {
   font-size: 2em;
 }
+.sidebar {
+  padding: 2em 17px;
+  width:30%;
+}
+.main {
+  margin-left: 27.666667%;
+  width: 70%;
+}
 }
 @media (max-width: 1024px){
 .sidebar {
   padding: 2em 17px;
-  width:20%;
+  width:30%;
 }
 .sidebar h1 {
   font-size: 1.6em;
 }
 .main {
   margin-left: 19.666667%;
-  width: 80%;
+  width: 70%;
 }
 }
 @media (max-width: 768px){
@@ -374,7 +382,7 @@ address {
   margin-bottom:0px;
 }
 .sidebar_top {
-  width: 32%;
+  width: 52%;
 }
 .sidebar img {
   width: 85%;
@@ -405,7 +413,7 @@ address {
   font-size: 1.3em;
 }
 .sidebar_top {
-  width: 38%;
+  width: 48%;
 }
 address {
   margin-bottom: 0px;
@@ -528,7 +536,7 @@ address span {
   width: 50%;
 }
 .sidebar img {
-  width: 80%;
+  width: 70%;
 }
 .details h3 {
   font-size: 0.7em;
