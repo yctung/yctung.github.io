@@ -12,8 +12,10 @@ html, body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 100%;
 	background: #ffffff;
+	color: #807f7f;
 }
 body a{
+	color: #237e8f;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -28,6 +30,19 @@ a:focus {
   outline: 0px auto -webkit-focus-ring-color;
   outline-offset: 0px;
   text-decoration:none;
+}
+.video_wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video_wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 /*-- header_top --*/
 .sidebar{
@@ -85,7 +100,7 @@ address span{
 .glyphicon {
   top:1px;
 }
-.glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
+.glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before,.glyphicon-book:before{
     margin-right: 9px;
   font-size: 14px;
   color: #6ecadc;
@@ -103,6 +118,43 @@ address span{
 .details_header ul li a:hover{
 	color:#6ecadc;
 }
+.box {
+	margin:2em 0;
+}
+.box h3{
+	color: #FFF;
+	padding: 5px 41px 5px 30px;
+	display: inline-block;
+}
+.box p{
+	color: #
+}
+.box b{
+	color: #2C2B2B;
+}
+.box_details {
+	padding:1.5em 0 0em 2em;
+}
+.box_lists{
+	padding:1.5em 0 0 2em;
+}
+.box_list1,.box_list2{
+	 float:left;
+	 width:30%;
+}
+.box_list1 h4,.box_list2 h4{
+	color:#333;
+	font-weight:600;
+	margin-bottom:1em;
+	display:inline-block;
+}
+.box_list1 ul,.box_list2 ul{
+	padding-left:4em;
+}
+.box_list1 ul li,.box_list2 ul li{
+	color:#333;
+}
+
 .company {
 	margin:2em 0;
 }
@@ -110,6 +162,19 @@ address span{
   color: #FFF;
   padding: 5px 41px 5px 30px;
   display: inline-block;
+}
+.box_details h4{
+	color:#333;
+	font-weight:600;
+	font-size:1.5em;
+	margin-bottom:6px;
+	font-family: 'Varela Round', sans-serif;
+}
+.box_details h4 span{
+	font-size: 0.65em;
+	margin-left: 5px;
+	color: #999;
+	font-weight:400;
 }
 .skills h3{
   color: #FFF;
@@ -249,7 +314,7 @@ h3.clr3{
   width:30%;
 }
 .main {
-  margin-left: 27.666667%;
+  margin-left: 29.666667%;
   width: 70%;
 }
 }

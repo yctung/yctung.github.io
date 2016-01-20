@@ -55,13 +55,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 <div class="content">
 		 <div class="details_header">
 			 <ul>
-				 <li><a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Resume</a></li>
-				 <li><a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Project</a></li>
-				 <li><a href="contact.html"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>CV</a></li>
+				 <li><a href="index.html"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>Home</a></li>
+				 <li><a href="#project"><span class="glyphicon glyphicon-book" aria-hidden="true"></span>Project</a></li>
+				 <li><a href="files/cv/CV_ver18.pdf" target="_blank"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>CV</a></li>
+
+			<!-- yctung: image popup is not responsive -> solve this issue latter
 				 <li><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>View photo</a></li>
 				 <div id="small-dialog" class="mfp-hide">
 					 <img src="images/profile_2015_mid.jpg" alt=""/>
 				 </div>
+			-->
 				 <script>
 						$(document).ready(function() {
 						$('.popup-with-zoom-anim').magnificPopup({
@@ -78,9 +81,150 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 																						
 						});
 				</script>
-			 </ul>
-		 </div>
-		 <div class="company">
+			</ul>
+		</div>
+
+		<div class="box">
+			<h3 class="clr1">About Me</h3>
+			<div class="box_details">
+				<p align="justify"> <strong>Tung Yu-Chih</strong> received the B.S. degree of Computer Science in National Chiao Tung University at 2009, and the M.S. degree of Computer Science in National Taiwan University at 2012. Yu-Chih used to work as a Research Assistant with <a href="http://nms.citi.sinica.edu.tw/katelin/index.html" target="_blank">Dr. Kate Ching-Ju Lin</a> in CITI, Academia Sinica and as a student intern in <a href="http://groups.csail.mit.edu/netmit/wordpress/" target="_blank">NETMIT</a>, CSAIL, MIT in 2011. After Yu-Chih finished military service, he started pursuing the Ph.D. degree of Computer Science in University of Michigan-Ann Arbor, advised by <a href="http://web.eecs.umich.edu/~kgshin/" target="_blank">Prof. Kang G. Shin</a>. His current research intrest is mobile applications or security issues based on physical layer signal processing.
+				</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="clr2">Latest News</h3>
+			<div class="box_details">
+				<h4>Check My EchoTag Video (ACM MobiCom 2015)<span>12/2015<span></h4>
+				<div class="video_wrapper">
+					<iframe width="640" height="400" src="https://www.youtube.com/embed/J_AQkGCD3MU" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="clr1">Work Experience</h3>
+			<div class="box_details">
+				<ul class="content-list">
+					<li>Intern in HP Labs, 2015</li>
+					<li>Research Intern in CSAIL, MIT 2011~2012</li>
+					<li>Research Assitant in Academia Sinica, Taiwan 2010~2012</li>
+					<li>iOS/Android app developer in KingFong Corp. 2010~2011</li>
+				</ul>		
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="clr1">Interests & Skills</h2>
+			<div class="box_details">
+				
+			</div>
+			<div class="box_lists">
+				<div class="box_list1">
+					<h4>Interests</h4>
+					<ul>					 
+						<li>Mobioe Computing</li>
+						<li>Internet of Things</li>
+						<li>Wireless Networks</li>
+						<li>System Optimizations</li>
+					 </ul>
+				</div>
+				<div class="box_list2">
+					 <h4>Skills</h4>
+					 <ul>					 
+						<li>C/C++/Java/Python/Matlab</li>
+						<li>Apps Developments</li>
+						<li>Socket Programming</li>
+						<li>Corss-layer Optimizations</li>
+					 </ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+
+		
+		
+		<div class="box">
+			<a name="project"></a> 
+			<h3 class="clr1">Selected Projects</h3>
+			<div class="box_details">
+				<h4>EchoTag<span>09/2015</span></h4>
+				<p align="justify">
+				EchoTag enables commodity phones to tag and remember indoor locations without requiring any additional sensors or pre-installed infrastructure. The main idea behind EchoTag is to actively generate acoustic signatures by transmitting a inaudible sound signal with a phone’s speakers and sensing its reflections with the phone’s microphones.
+				</p>
+				<h6><b>My Role: </b>Implementing the system at Android by integrating audio signal processing and Java/JNI/Matlab/LibSVM</h6>
+			</div>
+
+			<div class="box_details">
+				<h4>CSISec<span>05/2015</span></h4>
+				<h6>WEB DESIGNER</h6>
+				<p align="justify">
+				CSISec is a novel security system that ensure no leakage of channel state information (CSI) in wireless networks. CSISec utiliies the similar technology of zero-knowledge proof and signal cancellation to 
+
+				</p>
+			</div>
+
+			<div class="box_details">
+				<h4>TurboRate<span>XXX</span></h4>
+				<h6></h6>
+				<p align="justify">
+				A rate adaptation protocol solves the packet collision issue in Multi-user MIMO networks. Implementation and evaluation validate 1.7x and 2.3x throughput gains for 2-antenna and 3-antenna AP scenario respectively. This project is accepted by Mobicom 2012.
+				</p>
+			</div>
+
+			<div class="box_details">
+				<h4>Labor's Right App<span>XXX</span></h4>
+				<p align="justify">
+				Kingfong (Labor Law Console) is a mobile application written for all employees and employers in Taiwan/China to know their rights and calculate what they should get, such as pension and overwork payment. It also provides console function to post questions which will be replied by Kingfong cooperation.
+				</p>
+				<h6><b>My Role: </b>Designing the system model and user interface in Java and Objective-C</h6>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="clr1">Publications</h3>
+			<div class="box_details">
+				<ul class="content-list">
+					<li><a href="https://kabru.eecs.umich.edu/wordpress/wp-content/uploads/paper-mobicom-final-ready.pdf" target="_blank">EchoTag: Accurate Infrastructure-Free Indoor Location Tagging with Smartphones</a></li>
+					<div class="author-list"><u>Yu-Chih Tung</u> and Kang G. Shin</div>
+					<div class="conference">ACM MOBICOM, 2015 <a href="https://kabru.eecs.umich.edu/papers/misc/mobicom15_slide.swf" target="_blank">[Animated slide]</a> <a href="https://youtu.be/m0ckRY82-rk" target="_blank">[Presentation video]</a> </div>
+					<li>Availability Is Not Enough: Minimizing Joint Response Time in Peer-Assisted Cloud Storage Systems (my master thesis)</li>
+					<div class="author-list">Chen, M.-H.,<u>Tung, Y.-C.</u>, Hung, S.-H., Lin, K.C.-J. and Chou, C.-F.</div>
+					<div class="conference">IEEE Systems Journal, 2015 </div>
+					<li><a href="http://kabru.eecs.umich.edu/papers/publications/2014/paper-ccs.pdf" target="_blank">Vulnerability and Protection of Channel State Information in Multiuser MIMO Networks</a></li>
+					<div class="author-list"><u>Y.C. Tung</u>, S. Han, D. Chen, and K.G. Shin</div>
+					<div class="conference">ACM CCS, 2014 <a href="https://kabru.eecs.umich.edu/papers/misc/ccs14_slide.swf" target="_blank">[Animated slide]</a> <a href="https://youtu.be/voqRcT8l6SY" target="_blank">[Presentation video]</a></div>
+					<li><a href="data/publication/mobicom12-turborate.pdf" target="_blank">Rate Adaptation for 802.11 Multiuser MIMO Networks</a></li>
+					<div class="author-list">W.L. Shen, <u>Y.C. Tung</u>, K.C. Lee, K. C.J. Lin, S. Gollakota, D. Katabi and M.S. Chen</div>
+					<div class="conference">ACM Mobicom, 2012 (Best Paper Nomination)</div>
+
+					<li>Availability is Not Enough: Minimizing Joint Response Time in P2P Storage Systems</li>
+					<div class="author-list"><u>Yu-Chih Tung</u>, C,F. Chou, K.C.J. Lin</div>
+					<div class="conference">Master Thesis, 2012</div>
+
+					<li><a href="data/publication/globecom11-p2pstorage.pdf" target="_blank">Bandwidth.Aware Replica Placement for Peer.to.Peer Storage Systems</a></li>
+					<div class="author-list"><u>Yu-Chih Tung</u>, K.C.J. Lin, C.F. Chou</div>
+					<div class="conference">IEEE Globecom, 2011</div>
+					
+					<li><a href="data/publication/percom10-adhoc.pdf" target="_blank">Location-Assisted Energy-Efficient Content Search for Mobile Peer-to-Peer Networks</a></li>
+					<div class="author-list"><u>Yu-Chih Tung</u>, K.C.J. Lin</div>
+					<div class="conference">IEEE PERCOM Workshops, 2011</div>
+				</ul>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="clr1">Education</h3>
+			<div class="box_details">
+				<ul class="content-list">
+					<li>PhD in CSE, UMich (ongoing), GPA 4.00</li>
+					<li>M.S. in CSIE, NTU 2010~2012, GPA 3.90</li>
+					<li>B.S. in CSIE, NCTU 2006~2010, GPA 3.95</li>
+				</ul>		
+			</div>
+		</div>
+
+		<div class="company">
 			 <h3 class="clr1">Previous Employment</h3>
 			 <div class="company_details">
 				 <h4>Company Name <span>JUNE 2009 - PRESENT</span></h4>
@@ -143,7 +287,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </div>
 		 </div>
 		 <div class="copywrite">
-			 <p>© 2015 Curriculum Vitae . All Rights Reseverd | Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			 <p>© 2015 Curriculum Vitae, Originally Design by <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
 		 </div>
 	 </div>
 </div>
