@@ -51,6 +51,7 @@ a:focus {
   padding:2em 30px;
 }
 .sidebar h1{
+	width:100%;
 	font-size:2.5em;
 	font-weight:700;
 	margin-bottom:1em;
@@ -307,96 +308,39 @@ h3.clr3{
 /*--responsive--*/
 @media (max-width: 1366px){
 .sidebar h1 {
-  font-size: 2em;
+  font-size:2.0em;
+  font-size:2.7vw;
 }
 .sidebar {
   padding: 2em 17px;
-  width:30%;
+  width:22%;
 }
-.main {
-  margin-left: 29.666667%;
-  width: 70%;
-}
-}
-@media (max-width: 1024px){
-.sidebar {
-  padding: 2em 17px;
-  width:30%;
-}
-.sidebar h1 {
-  font-size: 1.6em;
-}
-.main {
-  margin-left: 19.666667%;
-  width: 70%;
-}
-}
-@media (max-width: 768px){
-.sidebar {
-  width: 22%;
+.details h1{
+  font-size:0em;
 }
 .main {
   margin-left: 21.666667%;
   width: 78%;
 }
+}
+@media (max-width: 1024px){
 .sidebar h1 {
-  font-size: 1.4em;
+  font-size: 1.6em; /*--in case vw is not supported--*/
+  font-size: 2.7vw;
 }
-.sidebar img {
-  padding: 0.5em;
-  width: 89%;
+.sidebar {
+  padding: 2em 17px;
+  width:22%;
 }
-.details_header {
-  padding: 0em 1em 0 1em;
+.details h1{
+  font-size:0em;
 }
-.details_header ul li a {
-  padding: 0 1em;
-  font-size: 0.9em;
-}
-.company h3,.skills h3,.education h3{
-  font-size: 1.2em;
-}
-.company_details h4, .education_details h4 {
-  font-size: 1.1em;
-}
-.company_details h6, .education_details h6 {
-  font-size: 0.8em;
-}
-.company_details p, .skill_info p, .education_details p {
-  font-size: 0.8em;
-}
-.cmpny1 {
-  padding-bottom: 1.5em;
-}
-.skill1, .skill2 {
-  float: left;
-  width: 50%;
-}
-.skill1 ul li,.skill2 ul li{
-	font-size:0.85em;
-}
-.skill1 h4, .skill2 h4 {
-  font-size: 1em;
-}
-.skill_list {
-  padding: 0.7em 0 0 2em;
-}
-.details p {
-  font-size: 0.75em;
-}
-address span {
-  font-size: 0.8em;
-}
-.contact-grid input[type="text"], .contact-grid textarea {
-  width: 100%;
-  font-size: 0.8em;
-}
-.send input[type="submit"] {
-  width: 20%;
-  font-size:0.85em;
+.main {
+  margin-left: 21.666667%;
+  width: 78%;
 }
 }
-@media (max-width: 736px){
+@media (max-width: 767px){
 .sidebar {
   width: 100%;
 }
@@ -404,32 +348,27 @@ address span {
   margin-left: 0;
   width: 100%;
 }
+.sidebar_name{
+	width:0%;
+	float:left;
+	margin-right:5%;
+}
+.sidebar_name h1{
+	font-size: 0em; /*-- remove the top name --*/
+}
+.details h1{
+  font-size:2em;
+  font-size:5vw;
+}
 .sidebar_top{
 	width:30%;
 	float:left;
 	margin-right:5%;
 }
 .details{
-	width:30%;
-	float:right;
-}
-}
-@media (max-width: 640px){
-.sidebar {
-  width: 100%;
-}
-.main {
-  margin-left: 0;
-  width: 100%;
-}
-.sidebar_top{
-	width:30%;
+	width:50%;
 	float:left;
-	margin-right:5%;
-}
-.details{
-	width:30%;
-	float:right;
+	margin-top:1em;
 }
 .sidebar img{
 	width:100%;
@@ -447,10 +386,10 @@ address {
   margin-bottom:0px;
 }
 .sidebar_top {
-  width: 52%;
+  width: 40%;
 }
 .sidebar img {
-  width: 85%;
+  width: 100%;
 }
 }
 @media (max-width: 568px){
@@ -473,9 +412,6 @@ address {
 }
 .details {
   width: 36%;
-}
-.sidebar h1 {
-  font-size: 1.3em;
 }
 .sidebar_top {
   width: 48%;
@@ -512,9 +448,6 @@ address {
 }
 }
 @media (max-width: 384px){
-.sidebar h1 {
-  font-size: 1.2em;
-}
 .details {
   width: 45%;
 }
@@ -569,11 +502,18 @@ address {
 }
 }
 @media (max-width: 375px){
-.sidebar h1 {
-  font-size: 1em;
+.sidebar_top {
+  width: 100%;
+  float: center;
+}
+.details {
+  width: 100%;
 }
 .sidebar img {
-  width: 70%;
+  width: 100%;
+}
+.details h1 {
+  font-size: 7vw;
 }
 .details h3 {
   font-size: 0.8em;
