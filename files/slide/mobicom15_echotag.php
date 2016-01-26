@@ -1,0 +1,1 @@
+<strong>Welcome to the page for downloading my ACM MobiCom 15 slide of <i>"EchoTag: Accurate InfrastructureFree Indoor Location Tagging with Smartphones"</i>.</strong> The slide is a flash playable file due to the necessity of extensive animations. Please follow the following instruction to play it. Hope you can enjoy it :)
