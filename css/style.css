@@ -207,7 +207,7 @@ address span{
 }
 .box_details h6{
 	font-weight:400;
-	margin-bottom:1.3em;
+	margin-bottom:0.5em;
 	font-size:0.9em;
 }
 .company_details p,.skill_info p,.education_details p{
