@@ -25,6 +25,8 @@ body a{
 body {
   padding-top:0px;
 }
+
+
 a:focus {
   outline: thin dotted;
   outline: 0px auto -webkit-focus-ring-color;
@@ -136,6 +138,7 @@ address span{
 }
 .box b{
 	color: #2C2B2B;
+	color: #101010;
 }
 .box_details {
 	padding:1.5em 0 0em 2em;
@@ -202,7 +205,7 @@ address span{
   color: #999;
   font-weight:400;
 }
-.company_details h6,.education_details h6{
+.box_details h6{
 	font-weight:400;
 	margin-bottom:1.3em;
 	font-size:0.9em;
