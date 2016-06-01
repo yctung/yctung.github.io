@@ -184,6 +184,10 @@ address span{
 	color: #999;
 	font-weight:400;
 }
+.conference {
+  color: #D68910;
+  margin-bottom:12px;
+}
 .skills h3{
   color: #FFF;
   padding: 5px 98px 5px 30px;
